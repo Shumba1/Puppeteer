@@ -1,0 +1,26 @@
+[
+  {
+    "id": "R-001",
+    "title": "Context drift across chatbot sessions",
+    "severity": "high",
+    "likelihood": "medium",
+    "mitigation": "Build worker packs from repo state only",
+    "status": "open"
+  },
+  {
+    "id": "R-002",
+    "title": "Premature browser automation fragility",
+    "severity": "high",
+    "likelihood": "medium",
+    "mitigation": "Keep manual fallback for all critical flows",
+    "status": "open"
+  },
+  {
+    "id": "R-003",
+    "title": "Approval ambiguity",
+    "severity": "medium",
+    "likelihood": "medium",
+    "mitigation": "Track approvals explicitly in approvals.json",
+    "status": "open"
+  }
+]

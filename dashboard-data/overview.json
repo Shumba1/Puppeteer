@@ -1,0 +1,9 @@
+{
+  "project": "puppeteer-os-v1-scaffold",
+  "mission": "Build a local-first, repo-backed project operating system that lets one human run disciplined AI-assisted project workflows without direct model APIs.",
+  "phase": "bootstrap",
+  "current_objective": "Bootstrap the repo scaffold and prove one manual task loop",
+  "health": "yellow",
+  "pending_approvals": 1,
+  "blocked_items": 1
+}

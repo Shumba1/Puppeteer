@@ -1,0 +1,12 @@
+{
+  "project": "puppeteer-os-v1-scaffold",
+  "status": "active",
+  "current_objective": "Bootstrap the repo scaffold and prove one manual task loop",
+  "current_phase": "bootstrap",
+  "next_action": "Build a worker pack for T-001 and run the first planning cycle",
+  "pending_approvals": 1,
+  "blocked_items": 0,
+  "active_tasks": 0,
+  "health": "yellow",
+  "last_updated": "2026-04-14T12:00:00Z"
+}

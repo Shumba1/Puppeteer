@@ -1,0 +1,55 @@
+{
+  "movement_stage": "Reviewing and governing",
+  "movement_score": 60,
+  "narrative": "The project has moved beyond setup. AI-touched work exists in the repo and is being held behind explicit approval gates, but evidence linkage and clearance still determine whether the change is truly validated.",
+  "task_completion_rate_pct": 0,
+  "approval_clearance_rate_pct": 0,
+  "ai_touch_rate_pct": 100,
+  "writeback_rate_pct": 100,
+  "evidence_coverage_rate_pct": 0,
+  "revision_rate_pct": 0,
+  "human_override_rate_pct": 0,
+  "signals": [
+    {
+      "title": "AI work is landing as durable artifacts",
+      "detail": "1 of 1 AI-touched outputs have been written back into the repo instead of being left in chat.",
+      "tone": "positive"
+    },
+    {
+      "title": "Human control remains explicit",
+      "detail": "1 approval gate(s) are still open, so important work is visible and governed.",
+      "tone": "neutral"
+    },
+    {
+      "title": "Evidence coverage is the next pressure point",
+      "detail": "Outputs exist, but the evidence rail still needs stronger linking before the dashboard can claim validated movement.",
+      "tone": "watch"
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Mission defined",
+      "status": "done"
+    },
+    {
+      "label": "Tasks structured",
+      "status": "done"
+    },
+    {
+      "label": "AI work in flight",
+      "status": "done"
+    },
+    {
+      "label": "Write-back complete",
+      "status": "done"
+    },
+    {
+      "label": "Approvals governed",
+      "status": "active"
+    },
+    {
+      "label": "Evidence linked",
+      "status": "todo"
+    }
+  ]
+}

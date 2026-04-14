@@ -1,0 +1,23 @@
+[
+  {
+    "role": "driver",
+    "provider": "Claude",
+    "status": "ready",
+    "current_task": "T-001",
+    "last_update": "2026-04-14T12:08:00Z"
+  },
+  {
+    "role": "critic",
+    "provider": "ChatGPT",
+    "status": "idle",
+    "current_task": null,
+    "last_update": "2026-04-14T12:08:00Z"
+  },
+  {
+    "role": "auditor",
+    "provider": "Gemini",
+    "status": "standby",
+    "current_task": null,
+    "last_update": "2026-04-14T12:08:00Z"
+  }
+]

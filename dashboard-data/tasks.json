@@ -1,0 +1,25 @@
+{
+  "inbox": [
+    {
+      "id": "T-001",
+      "title": "Bootstrap plan for the first manual loop",
+      "status": "inbox"
+    }
+  ],
+  "active": [
+    {
+      "id": "T-003",
+      "title": "QA the first project ingestion flow",
+      "status": "active"
+    }
+  ],
+  "review": [],
+  "blocked": [
+    {
+      "id": "T-002",
+      "title": "Load first project docs",
+      "status": "blocked"
+    }
+  ],
+  "done": []
+}

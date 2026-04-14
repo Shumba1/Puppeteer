@@ -1,0 +1,18 @@
+[
+  {
+    "id": "O-001",
+    "task_id": "T-001",
+    "title": "Bootstrap plan",
+    "path": "outputs/drafts/bootstrap-plan.md",
+    "status": "awaiting_approval",
+    "worker": "driver",
+    "provider": "Claude",
+    "created_at": "2026-04-14T12:03:00Z",
+    "ai_touched": true,
+    "writeback_complete": true,
+    "evidence_linked": false,
+    "review_count": 1,
+    "revision_requested": false,
+    "human_override": false
+  }
+]

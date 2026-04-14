@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #080812;
+  --line: rgba(148, 163, 184, 0.16);
+  --text: #f8fafc;
+}
+
+html { color-scheme: dark; }
+
+body {
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(139, 92, 246, 0.16), transparent 24%),
+    radial-gradient(circle at bottom center, rgba(34, 197, 94, 0.1), transparent 22%),
+    linear-gradient(180deg, #060816 0%, #09090f 45%, #06070b 100%);
+}
+
+* { border-color: var(--line); }
+
+::selection {
+  background: rgba(56, 189, 248, 0.35);
+  color: white;
+}
+
+@layer base {
+  h1, h2, h3, h4 { letter-spacing: -0.02em; }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-3xl border border-white/10 bg-white/5 shadow-[0_20px_80px_-32px_rgba(15,23,42,0.9)] backdrop-blur-xl;
+  }
+  .panel-strong {
+    @apply rounded-3xl border border-white/10 bg-slate-950/80 shadow-[0_20px_80px_-32px_rgba(15,23,42,1)] backdrop-blur-2xl;
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-slate-300;
+  }
+  .metric { @apply rounded-3xl border border-white/10 bg-white/5 p-5 shadow-[0_20px_80px_-32px_rgba(15,23,42,0.9)] backdrop-blur-xl; }
+  .eyebrow { @apply text-[0.7rem] uppercase tracking-[0.22em] text-slate-400; }
+  .soft-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148,163,184,0.35) transparent;
+  }
+}

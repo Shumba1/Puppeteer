@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer-os-v1-next-tailwind",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "refresh": "tsx scripts/refresh-dashboard.ts",
+    "build-pack": "tsx scripts/build-pack.ts",
+    "move-task": "tsx scripts/move-task.ts",
+    "validate": "tsx scripts/validate-state.ts",
+    "ingest": "tsx scripts/ingest.ts",
+    "project:lint": "tsx scripts/lint-project.ts"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
